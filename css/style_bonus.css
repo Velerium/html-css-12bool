@@ -1,0 +1,29 @@
+[class*="col"] {
+    padding-top: calc(100% / 12);
+}
+
+.blueish {
+    background-color: #2a484a;
+}
+
+.black {
+    background-color: #000;
+}
+
+.red {
+    background-color: #f00;
+}
+
+.lightblue {
+    background-color: #98c7dc;
+}
+
+.white {
+    background-color: #deedf3;
+}
+
+.darkblue {
+    background-color: #4a646e;
+}
+
+/*This thing is responsive as well!!*/
