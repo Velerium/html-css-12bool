@@ -1,0 +1,24 @@
+.row {
+    background-color: #ffc0cb;
+    height: 20vh;
+    width: 100%;
+}
+
+[class*="col"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px black solid;
+    padding: 4px;
+}
+
+.nested {
+    height: 100%;
+}
+
+.nested > div {
+    background-color: #f07f80;
+    border: 1px #fff solid;
+    height: 100%;
+    text-align: center;
+}
